@@ -1,0 +1,12 @@
+# external libraries
+node_modules
+
+# build outputs
+dist
+.next
+
+# logs
+.turbo
+
+#tests
+coverage

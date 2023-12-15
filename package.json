@@ -1,0 +1,17 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Ben Turner - bbgrabbag@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.0",
+    "turbo": "^1.11.2"
+  },
+  "lint-staged": {},
+  "scripts": {
+    "prepare": "husky install"
+  }
+}

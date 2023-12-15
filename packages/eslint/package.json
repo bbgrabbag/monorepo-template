@@ -1,0 +1,27 @@
+{
+  "name": "@repo/eslint",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "next.js",
+    "library.js"
+  ],
+  "scripts": {
+    "eslint": "eslint"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^14.0.4",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vercel/style-guide": "^4.0.2",
+    "eslint": "^8.55.0",
+    "eslint-config-standard-with-typescript": "^42.0.0",
+    "eslint-config-turbo": "^1.10.12",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "*"
+  }
+}
