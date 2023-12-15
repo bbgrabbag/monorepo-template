@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:storybook": "storybook dev",
     "build": "next build",
     "start": "next start",
     "test": "jest",
@@ -22,12 +23,15 @@
     "@repo/eslint": "*",
     "@repo/jest": "*",
     "@repo/prettier": "*",
+    "@repo/storybook": "*",
     "@repo/tsconfig": "*",
+    "@storybook/react": "^7.6.4",
     "@testing-library/react": "^14.1.2",
     "@types/jest": "^29.5.11",
     "@types/node": "20.10.4",
     "eslint-config-next": "14.0.4",
     "jest": "^29.7.0",
+    "storybook": "^7.6.4",
     "ts-jest": "^29.1.1"
   }
 }

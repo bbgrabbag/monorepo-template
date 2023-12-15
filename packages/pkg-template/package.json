@@ -5,6 +5,7 @@
   "main": "dist/bundle.js",
   "scripts": {
     "dev": "storybook dev",
+    "dev:storybook": "storybook dev",
     "build": "rollup -c",
     "test": "jest",
     "lint": "eslint -c .eslintrc.js --fix ./src",
