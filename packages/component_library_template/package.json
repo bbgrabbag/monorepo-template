@@ -1,5 +1,5 @@
 {
-  "name": "@repo/pkg-template",
+  "name": "@repo/component_library_template",
   "version": "0.0.0",
   "private": true,
   "main": "dist/bundle.js",

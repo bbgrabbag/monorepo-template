@@ -4,7 +4,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { Button } from "./Button";
 
 const meta: Meta<typeof Button> = {
-  title: "PKG Template/Components/Button",
+  title: "Library Template/Components/Button",
   component: Button,
   args: {
     children: "test",
