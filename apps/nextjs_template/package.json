@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "dev:storybook": "storybook dev",
+    "dev:storybook": "storybook dev -p 6008",
     "build": "next build",
     "start": "next start",
     "test": "jest",

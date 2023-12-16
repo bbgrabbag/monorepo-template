@@ -1,0 +1,10 @@
+import { render } from "@testing-library/react";
+import { {{component}} } from "./{{component}}";
+
+describe("Test <{{component}}> component", () => {
+  test("Should render", async () => {
+    const cmp = render(<{{component}}/>);
+    const el = await cmp.findByTestId("@repo/{{workspace}}/{{component}}");
+    expect(el).toBeInstanceOf(HTMLDivElement);
+  });
+});

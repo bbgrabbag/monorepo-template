@@ -4,8 +4,7 @@ import { HomePage } from "./HomePage";
 describe("Test <HomePage> component", () => {
   test("Should render", async () => {
     const cmp = render(<HomePage />);
-    expect(await cmp.findByTestId("@apps/portfolio/home-page")).toBeInstanceOf(
-      HTMLDivElement,
-    );
+    const el = await cmp.findByTestId("@repo/nextjs_template/HomePage");
+    expect(el).toBeInstanceOf(HTMLDivElement);
   });
 });
