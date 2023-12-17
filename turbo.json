@@ -31,6 +31,10 @@
                 "lint"
             ]
         },
-        "deploy": {}
+        "deploy": {
+            "dependsOn": [
+                "^build"
+            ]
+        }
     }
 }
