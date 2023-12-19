@@ -1,0 +1,19 @@
+{
+  "palette": {
+    "primary": {
+      "main": "#001427"
+    },
+    "secondary": {
+      "main": "#8D0801"
+    },
+    "success": {
+      "main": "#708D81"
+    },
+    "error": {
+      "main": "#BF0603"
+    },
+    "warning": {
+      "main": "#F4D58D"
+    }
+  }
+}

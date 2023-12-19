@@ -17,6 +17,7 @@
     "@repo/prettier": "*",
     "@repo/storybook": "*",
     "@repo/tsconfig": "*",
+    "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-typescript": "^11.1.5",
     "@storybook/react": "^7.6.4",
     "@testing-library/react": "^14.1.2",
@@ -29,6 +30,11 @@
     "tslib": "^2.6.2"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.15.0",
+    "@mui/material": "^5.15.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

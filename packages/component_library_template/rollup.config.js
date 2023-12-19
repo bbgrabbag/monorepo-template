@@ -1,4 +1,5 @@
-const typescriptPlugin = require('@rollup/plugin-typescript')
+const typescriptPlugin = require('@rollup/plugin-typescript');
+const jsonPlugin = require('@rollup/plugin-json');
 
 /** @type {import('rollup').RollupOptions} */
 const options = {
@@ -6,7 +7,7 @@ const options = {
     output: {
         file: 'dist/bundle.js',
     },
-    plugins: [typescriptPlugin()]
+    plugins: [typescriptPlugin(), jsonPlugin()]
 }
 
 module.exports = options
