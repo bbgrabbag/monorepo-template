@@ -1,10 +1,11 @@
 # Component Library Template
 
-Boilerplate code for React component library. Copy package using the following command (follow the remaining prompts):
+Boilerplate code for React component library.
+### Get Started
+- It's recommended to first copy this workspace and give the cloned workspace a new name under the `"name"` property in package.json. Follow the remaining prompts:
 ```
 turbo gen workspace --copy @repo/component_library_template --type package
 ``` 
-### Get Started
 - Create a component using the `turbo gen create-component` command.
 - Make your component available to consume by exporting it from `src/index.tsx`;
 ```js
@@ -22,7 +23,7 @@ export { YourComponent } from './components/YourComponent'
 Library includes a basic Material UI installation as well as a premade `<CustomThemeProvider>` component. See [documentation](https://mui.com/material-ui/customization/theming/) for details on how to customize themes
 
 ##### Theme
-- To use custom themes, import `CustomThemeProvider` and wrap around root entrypoint of your application:
+- To use custom themes in another workspace, import `CustomThemeProvider` and wrap around root entrypoint of your application:
 
 ```js
 import * as React from "react";
