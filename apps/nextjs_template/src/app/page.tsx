@@ -1,8 +1,8 @@
+"use client";
 import * as React from "react";
-import { HomePage } from "../modules/home/components/HomePage";
 
-const Home: React.FC = () => {
-  return <HomePage />;
+const HomePage: React.FC = () => {
+  return <div data-testid="@repo/nextjs_template/HomePage">Home Page</div>;
 };
 
-export default Home;
+export default HomePage;

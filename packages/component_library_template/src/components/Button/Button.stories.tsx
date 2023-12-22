@@ -2,15 +2,11 @@ import * as React from "react";
 import type { Meta, StoryObj } from "@storybook/react";
 
 import { Button } from "./Button";
-
-const meta: Meta<typeof Button> = {
+const meta: Meta = {
   title: "Component Library Template/Button",
   component: Button,
   argTypes: {
-    color: {
-      control: "radio",
-      options: ["primary", "secondary"],
-    },
+    color: { control: "radio", options: ["primary", "secondary"] },
   },
   args: {
     children: "test",

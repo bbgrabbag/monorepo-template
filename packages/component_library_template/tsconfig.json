@@ -4,4 +4,10 @@
         "src/**/*.ts",
         "src/**/*.tsx"
     ],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "declaration": true,
+        "declarationMap": true,
+        "declarationDir": "dist",
+    }
 }

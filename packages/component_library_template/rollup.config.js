@@ -7,7 +7,13 @@ const options = {
     output: {
         file: 'dist/bundle.js',
     },
-    plugins: [typescriptPlugin(), jsonPlugin()]
+    plugins: [typescriptPlugin({
+        exclude: [
+            "**/*.stories.tsx", 
+            "**/*.test.ts", 
+            "**/*.test.tsx", 
+            "**/*.test-utils.tsx"]
+    }), jsonPlugin()]
 }
 
 module.exports = options

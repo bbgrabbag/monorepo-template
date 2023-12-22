@@ -3,10 +3,6 @@ import { Preview } from '@storybook/react';
 import { CustomThemeProvider } from '../src';
 import { THEME_NAMES } from '../src/themes';
 
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/500.css';
-import '@fontsource/roboto/700.css';
 
 const preview: Preview = {
   globalTypes: {
