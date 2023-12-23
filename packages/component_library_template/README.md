@@ -1,6 +1,6 @@
 # Component Library Template
-
 Boilerplate code for React component library.
+
 ### Get Started
 - It's recommended to first copy this workspace and give the cloned workspace a new name under the `"name"` property in package.json. Follow the remaining prompts:
 ```
